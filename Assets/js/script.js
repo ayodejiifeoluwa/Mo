@@ -61,20 +61,24 @@ window.addEventListener("scroll", activeHeader);
  * Scroll Reveal 
  */
 
-let sections = document.querySelectorAll('section');
+ScrollReveal({ 
+  reset: true,
+   distance: '80px',
+   duration: 2000,
+   delay: 200
+});
 
-window.onscroll = () => {
-  sections.forEach(sec => {
-    let top = window.scrollY;
-    let offset = sec.offsetTop;
-    let height = sec.offsetHeight;
+ScrollReveal().reveal('.heading, .water-color, .acrylic, .reviews, .fb, .ig, .pin, .top', { origin: 'top' });
+ScrollReveal().reveal('.header, .logo-3, .skill-banner, .portrait-painting, .charcoal-Painting, .title-lg, .tw, .ld, .butt', { origin: 'bottom' });
+ScrollReveal().reveal('.hero-content, .about-img, .logo-1, .logo-2, .about-banner, .section-title, .sketch, .lefty',  { origin: 'left' });
+ScrollReveal().reveal('.social-media-hero, .hero-banner, .logo-4, .logo-5, .about-content, .cartooning, .btn btn-tertiary, .righty', { origin: 'right' });
 
-    if (tpo >= offset && top < offset + height) {
-      sec.classList.add('show-animate');
-    }
-    // if want to use repeating animination scroll,  use this
-    else{
-      sec.classList.remove('show-animate');
-    }
-  })
-}
+
+/*==================== Typed js ====================*/
+const typed = new   Typed('.multiple-text', {
+   strings: ['Film Maker', 'Creative Director', 'Video Editor'],
+   typeSpeed: 100,
+   backSpeed: 100,
+   backDelay: 1000,
+   loop: true,
+});
