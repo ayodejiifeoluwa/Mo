@@ -17,6 +17,8 @@
 
 body {
     background-image: url(/Assets/images/service-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
