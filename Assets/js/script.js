@@ -71,7 +71,7 @@ ScrollReveal({
 ScrollReveal().reveal('.heading, .water-color, .acrylic, .reviews, .fb, .ig, .pin, .top', { origin: 'top' });
 ScrollReveal().reveal('.header, .logo-3, .skill-banner, .portrait-painting, .charcoal-Painting, .title-lg, .tw, .ld, .butt', { origin: 'bottom' });
 ScrollReveal().reveal('.hero-content, .about-img, .logo-1, .logo-2, .about-banner, .section-title, .sketch, .lefty',  { origin: 'left' });
-ScrollReveal().reveal('.social-media-hero, .hero-banner, .logo-4, .logo-5, .about-content, .cartooning, .btn btn-tertiary, .righty', { origin: 'right' });
+ScrollReveal().reveal('.social-media-hero, .hero-banner, .logo-4, .logo-5, .about-content, .cartooning, .btn btn-tertiary, .righty, .contact-form', { origin: 'right' });
 
 
 /*==================== Typed js ====================*/

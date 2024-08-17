@@ -387,21 +387,45 @@
 }
 
 /**
-*Scroll Reveal Animination
+*Logo 
 **/
 
-
-@keyframes appear {
-  from{
-    opacity: 0;
-    scale: 0.5;
-  }
-  to{
-    opacity: 1;
-    scale: 1;
+@media (max-width: 600px) {
+  .logo img {
+    width: 50px; /* Adjust the size as needed */
   }
 }
 
-.hero-content {
-  animation: appear linear;
+/* Medium screens (e.g., tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .logo img {
+    width: 55px; /* Adjust the size as needed */
+  }
+}
+
+/* Large screens (e.g., desktops) */
+@media (min-width: 1025px) {
+  .logo img {
+    width: 60px; /* Keep the original size or adjust as needed */
+  }
+}
+
+/* Extremely small screens (e.g., older mobile devices or very small viewports) */
+@media (max-width: 320px) {
+  .logo img {
+    width: 40px; /* Adjust the size to fit the smallest screens */
+  }
+}
+
+/* Small screens (e.g., modern mobile phones) */
+@media (min-width: 321px) and (max-width: 600px) {
+  .logo img {
+    width: 50px; 
+  }
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+  .logo img {
+    width: 10px; 
+  }
 }

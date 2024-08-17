@@ -39,7 +39,7 @@ body {
   text-align: center;
   font-weight: 800;
   font-size: 36px;
-  
+  margin-top: 50px;
 }
 
 .title-p {
@@ -84,7 +84,7 @@ body {
   background-color: var(--white);
   color: var(--jet);
   font-size: 2rem;
-  padding: 30px;
+  padding: 10px;
   border: 2px solid var(--jet);
   opacity: 0;
   transition: var(--transition-1);
